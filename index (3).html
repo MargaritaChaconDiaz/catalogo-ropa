@@ -1,0 +1,309 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Margarita Chacón Díaz - Catálogo</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --pink-mist: #F7DAE7;
+      --bubblegum: #E2B4C1;
+      --cherry-soda: #D38C9D;
+      --ruby-petals: #A55166;
+      --font-main: 'Playfair Display', serif;
+    }
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: var(--font-main);
+      background-color: var(--pink-mist);
+      color: var(--ruby-petals);
+    }
+    header {
+      background-color: var(--ruby-petals);
+      color: white;
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+    header img {
+      max-width: 120px;
+      margin-bottom: 1rem;
+    }
+    h1 {
+      font-size: 2rem;
+    }
+    .catalogo {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 2rem;
+      padding: 2rem;
+    }
+    .producto {
+      background-color: var(--bubblegum);
+      padding: 1rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      transition: transform 0.3s;
+    }
+    .producto:hover {
+      transform: scale(1.03);
+    }
+    .producto img {
+      width: 100%;
+      border-radius: 10px;
+    }
+    .producto h2 {
+      margin-top: 0.5rem;
+      font-size: 1.2rem;
+      color: var(--ruby-petals);
+    }
+    .producto p {
+      font-size: 0.95rem;
+      margin: 0.5rem 0;
+    }
+    .producto span {
+      font-weight: bold;
+      color: var(--cherry-soda);
+      display: block;
+      margin-bottom: 0.3rem;
+    }
+    .producto .tallas {
+      font-size: 0.9rem;
+      color: #333;
+    }
+    footer {
+      background-color: var(--ruby-petals);
+      color: white;
+      text-align: center;
+      padding: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="logo.png" alt="Logo Margarita Chacón Díaz">
+    <h1>Catálogo de Vestidos de Baño</h1>
+  </header>
+
+  <main class="catalogo">
+
+    <div class="producto">
+      <img src="banio1.jpg" alt="Vestido 1">
+      <h2>Modelo 1</h2>
+      <p>Descripción del vestido de baño número 1. Diseño exclusivo y cómodo.</p>
+      <span>$60.000</span>
+      <div class="tallas">Tallas disponibles: S, M, L</div>
+    </div>
+
+    <div class="producto">
+      <img src="banio2.jpg" alt="Vestido 2">
+      <h2>Modelo 2</h2>
+      <p>Descripción del vestido de baño número 2. Diseño exclusivo y cómodo.</p>
+      <span>$60.000</span>
+      <div class="tallas">Tallas disponibles: S, M, L</div>
+    </div>
+
+    <div class="producto">
+      <img src="banio3.jpg" alt="Vestido 3">
+      <h2>Modelo 3</h2>
+      <p>Descripción del vestido de baño número 3. Diseño exclusivo y cómodo.</p>
+      <span>$60.000</span>
+      <div class="tallas">Tallas disponibles: S, M, L</div>
+    </div>
+
+    <div class="producto">
+      <img src="banio4.jpg" alt="Vestido 4">
+      <h2>Modelo 4</h2>
+      <p>Descripción del vestido de baño número 4. Diseño exclusivo y cómodo.</p>
+      <span>$60.000</span>
+      <div class="tallas">Tallas disponibles: S, M, L</div>
+    </div>
+
+    <div class="producto">
+      <img src="banio5.jpg" alt="Vestido 5">
+      <h2>Modelo 5</h2>
+      <p>Descripción del vestido de baño número 5. Diseño exclusivo y cómodo.</p>
+      <span>$60.000</span>
+      <div class="tallas">Tallas disponibles: S, M, L</div>
+    </div>
+
+    <div class="producto">
+      <img src="banio6.jpg" alt="Vestido 6">
+      <h2>Modelo 6</h2>
+      <p>Descripción del vestido de baño número 6. Diseño exclusivo y cómodo.</p>
+      <span>$60.000</span>
+      <div class="tallas">Tallas disponibles: S, M, L</div>
+    </div>
+
+    <div class="producto">
+      <img src="banio7.jpg" alt="Vestido 7">
+      <h2>Modelo 7</h2>
+      <p>Descripción del vestido de baño número 7. Diseño exclusivo y cómodo.</p>
+      <span>$60.000</span>
+      <div class="tallas">Tallas disponibles: S, M, L</div>
+    </div>
+
+    <div class="producto">
+      <img src="banio8.jpg" alt="Vestido 8">
+      <h2>Modelo 8</h2>
+      <p>Descripción del vestido de baño número 8. Diseño exclusivo y cómodo.</p>
+      <span>$60.000</span>
+      <div class="tallas">Tallas disponibles: S, M, L</div>
+    </div>
+
+    <div class="producto">
+      <img src="banio9.jpg" alt="Vestido 9">
+      <h2>Modelo 9</h2>
+      <p>Descripción del vestido de baño número 9. Diseño exclusivo y cómodo.</p>
+      <span>$60.000</span>
+      <div class="tallas">Tallas disponibles: S, M, L</div>
+    </div>
+
+    <div class="producto">
+      <img src="banio10.jpg" alt="Vestido 10">
+      <h2>Modelo 10</h2>
+      <p>Descripción del vestido de baño número 10. Diseño exclusivo y cómodo.</p>
+      <span>$60.000</span>
+      <div class="tallas">Tallas disponibles: S, M, L</div>
+    </div>
+
+    <div class="producto">
+      <img src="banio11.jpg" alt="Vestido 11">
+      <h2>Modelo 11</h2>
+      <p>Descripción del vestido de baño número 11. Diseño exclusivo y cómodo.</p>
+      <span>$60.000</span>
+      <div class="tallas">Tallas disponibles: S, M, L</div>
+    </div>
+
+    <div class="producto">
+      <img src="banio12.jpg" alt="Vestido 12">
+      <h2>Modelo 12</h2>
+      <p>Descripción del vestido de baño número 12. Diseño exclusivo y cómodo.</p>
+      <span>$60.000</span>
+      <div class="tallas">Tallas disponibles: S, M, L</div>
+    </div>
+
+    <div class="producto">
+      <img src="banio13.jpg" alt="Vestido 13">
+      <h2>Modelo 13</h2>
+      <p>Descripción del vestido de baño número 13. Diseño exclusivo y cómodo.</p>
+      <span>$60.000</span>
+      <div class="tallas">Tallas disponibles: S, M, L</div>
+    </div>
+
+    <div class="producto">
+      <img src="banio14.jpg" alt="Vestido 14">
+      <h2>Modelo 14</h2>
+      <p>Descripción del vestido de baño número 14. Diseño exclusivo y cómodo.</p>
+      <span>$60.000</span>
+      <div class="tallas">Tallas disponibles: S, M, L</div>
+    </div>
+
+    <div class="producto">
+      <img src="banio15.jpg" alt="Vestido 15">
+      <h2>Modelo 15</h2>
+      <p>Descripción del vestido de baño número 15. Diseño exclusivo y cómodo.</p>
+      <span>$60.000</span>
+      <div class="tallas">Tallas disponibles: S, M, L</div>
+    </div>
+
+    <div class="producto">
+      <img src="banio16.jpg" alt="Vestido 16">
+      <h2>Modelo 16</h2>
+      <p>Descripción del vestido de baño número 16. Diseño exclusivo y cómodo.</p>
+      <span>$60.000</span>
+      <div class="tallas">Tallas disponibles: S, M, L</div>
+    </div>
+
+    <div class="producto">
+      <img src="banio17.jpg" alt="Vestido 17">
+      <h2>Modelo 17</h2>
+      <p>Descripción del vestido de baño número 17. Diseño exclusivo y cómodo.</p>
+      <span>$60.000</span>
+      <div class="tallas">Tallas disponibles: S, M, L</div>
+    </div>
+
+    <div class="producto">
+      <img src="banio18.jpg" alt="Vestido 18">
+      <h2>Modelo 18</h2>
+      <p>Descripción del vestido de baño número 18. Diseño exclusivo y cómodo.</p>
+      <span>$60.000</span>
+      <div class="tallas">Tallas disponibles: S, M, L</div>
+    </div>
+
+    <div class="producto">
+      <img src="banio19.jpg" alt="Vestido 19">
+      <h2>Modelo 19</h2>
+      <p>Descripción del vestido de baño número 19. Diseño exclusivo y cómodo.</p>
+      <span>$60.000</span>
+      <div class="tallas">Tallas disponibles: S, M, L</div>
+    </div>
+
+    <div class="producto">
+      <img src="banio20.jpg" alt="Vestido 20">
+      <h2>Modelo 20</h2>
+      <p>Descripción del vestido de baño número 20. Diseño exclusivo y cómodo.</p>
+      <span>$60.000</span>
+      <div class="tallas">Tallas disponibles: S, M, L</div>
+    </div>
+
+    <div class="producto">
+      <img src="banio21.jpg" alt="Vestido 21">
+      <h2>Modelo 21</h2>
+      <p>Descripción del vestido de baño número 21. Diseño exclusivo y cómodo.</p>
+      <span>$60.000</span>
+      <div class="tallas">Tallas disponibles: S, M, L</div>
+    </div>
+
+    <div class="producto">
+      <img src="banio22.jpg" alt="Vestido 22">
+      <h2>Modelo 22</h2>
+      <p>Descripción del vestido de baño número 22. Diseño exclusivo y cómodo.</p>
+      <span>$60.000</span>
+      <div class="tallas">Tallas disponibles: S, M, L</div>
+    </div>
+
+    <div class="producto">
+      <img src="banio23.jpg" alt="Vestido 23">
+      <h2>Modelo 23</h2>
+      <p>Descripción del vestido de baño número 23. Diseño exclusivo y cómodo.</p>
+      <span>$60.000</span>
+      <div class="tallas">Tallas disponibles: S, M, L</div>
+    </div>
+
+    <div class="producto">
+      <img src="banio24.jpg" alt="Vestido 24">
+      <h2>Modelo 24</h2>
+      <p>Descripción del vestido de baño número 24. Diseño exclusivo y cómodo.</p>
+      <span>$60.000</span>
+      <div class="tallas">Tallas disponibles: S, M, L</div>
+    </div>
+
+    <div class="producto">
+      <img src="banio25.jpg" alt="Vestido 25">
+      <h2>Modelo 25</h2>
+      <p>Descripción del vestido de baño número 25. Diseño exclusivo y cómodo.</p>
+      <span>$60.000</span>
+      <div class="tallas">Tallas disponibles: S, M, L</div>
+    </div>
+
+    <div class="producto">
+      <img src="banio26.jpg" alt="Vestido 26">
+      <h2>Modelo 26</h2>
+      <p>Descripción del vestido de baño número 26. Diseño exclusivo y cómodo.</p>
+      <span>$60.000</span>
+      <div class="tallas">Tallas disponibles: S, M, L</div>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Margarita Chacón Díaz</p>
+  </footer>
+</body>
+</html>
